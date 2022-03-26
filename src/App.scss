@@ -1,0 +1,20 @@
+.App {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.game {
+    width: 560px;
+    height: 560px;
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+        width: 70px;
+        height: 70px;
+        transition: all 2s ease;
+    }
+}
+
